@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Mangal Essakki Innovations</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+
+  <!-- Favicons -->
+  <link href="img/MEfav.png" rel="icon" />
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i"
+    rel="stylesheet" />
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet" />
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/popup.css" rel="stylesheet" />
+  <!-- <link href="css/all.css" rel="stylesheet" /> -->
+
+  <!-- firebase setup -->
+  <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+  
+</head>
+
+<body>
+  <div id="load"></div>
+
+  <!-- Page Load Popup -->
+  <!-- Color Codes
+    red = #b50128
+    blue = #1c3d60
+    orange = #f6771a
+    yellow = #ffe002
+  -->
+  <div class="popup">
+    <!-- <div class="balloons"></div> -->
+    <div id="backImg"></div>
+    <div id="frontImg"></div>
+
+    <div class="cnt223">
+      <p>
+        <!-- <a href="" class="close">&times;</a> -->
+        <button class="close">X</button>
+      </p>
+      <img src="img/Meinnovationsoffer.jpg" alt="" srcset="" />
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade offersModal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <!-- <div class="balloons"></div> -->
+    <div id="backImg" style="z-index:-1;"></div>
+    <div id="frontImg" style="z-index:-1;"></div>
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button data-dismiss="modal">X</button>
+        </div>
+        <div class="modal-body">
+          <img src="img/Meinnovationsoffer.jpg" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+      ==========================
+        Header
+      ============================
+    -->
+  <header id="header">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto">Mangal Essakki </a></h1>
+        <h2><a href="#intro" class="scrollto">Innovations </a></h2>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal" style="padding:5px 10px; background-color: red;">
+                <img src="img/Gifts - Copy.gif" alt="" >
+                Offers
+            </button>
+          </li>
+          <li class="menu-active">
+            <a href="#carouselExampleControls" style="padding:10px;">Home</a>
+          </li>
+          <li><a href="#about" style="padding:10px;">About Us</a></li>
+          <li><a href="#features" style="padding:10px;">Services</a></li>
+          <li><a href="#pricing" style="padding:10px;">Why Us</a></li>
+          <!-- <li style="background-color:red;"><a href="#">Offers</a></li> -->
+          <!--
+              <li><a href="#team">Team</a></li>
+              <li><a href="#gallery">Career</a></li>
+            -->
+          <!--
+              <li class="menu-has-children"><a href="">Drop Down</a>
+                <ul>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li class="menu-has-children"><a href="#">Drop Down 2</a>
+                    <ul>
+                      <li><a href="#">Deep Drop Down 1</a></li>
+                      <li><a href="#">Deep Drop Down 2</a></li>
+                      <li><a href="#">Deep Drop Down 3</a></li>
+                      <li><a href="#">Deep Drop Down 4</a></li>
+                      <li><a href="#">Deep Drop Down 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Drop Down 3</a></li>
+                  <li><a href="#">Drop Down 4</a></li>
+                  <li><a href="#">Drop Down 5</a></li>
+                </ul>
+              </li>
+            -->
+          <li><a href="#contact" style="padding:10px;">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
+    </div>
+  </header>
+  <!-- #header -->
+
+  <!--
+      ==========================
+        Intro Section
+      ============================
+    -->
+  <!-- <section id="intro"> -->
+  <!--
+      <div class="intro-text">
+        <h2>
+          Welcome to Mangal Essakki <br />
+          Innovations
+        </h2>
+        <a href="#about" class="btn-get-started scrollto">About Us</a>
+      </div>
+    -->
+
+  <!-- sliders -->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="./img/new2.jpg" alt="First slide" />
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./img/new222.jpg" alt="Second slide" />
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./img/new22.jpg" alt="Third slide" />
+      </div>
+    </div>
+
+    <!-- message on slider -->
+    <div class="carousel-caption d-none d-md-block wow fadeInUp" data-wow-duration="3s" data-wow-delay="1s">
+      <h2 class="text-blod">
+        <b>"The Heart and soul of the company is creativity and
+          Innovations"</b>
+      </h2>
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- </section> -->
+
+  <!-- sliders -->
+
+  <!--
+      <div class="product-screens">
+
+        <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
+          <img src="img/product-screen-1.png" alt="">
+        </div>
+
+        <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
+          <img src="img/product-screen-2.png" alt="">
+        </div>
+
+        <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
+          <img src="img/product-screen-3.png" alt="">
+        </div>
+
+      </div>
+    -->
+
+  <!-- #intro -->
+
+  <main id="main">
+    <!--
+        ==========================
+          About Us Section
+        ============================
+      -->
+    <section id="about" class="section-bg">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">About Us</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">
+            A Passion for design and technology led us to this<br />
+            incredible journey...
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 about-img wow fadeInLeft">
+            <!-- <div class="parallax"></div> -->
+            <img src="img/about-img.jpg" alt="" />
+          </div>
+
+          <div class="col-lg-6 content text-center about-mar wow fadeInRight">
+            <h3>
+              Founded in 2018, Mangal Essakki Innovations is committed to
+              providing digital services that would help businesses grow and
+              open new opportunities for them to reach greater heights.
+              Innovations and professionalism are the core qualities on which
+              the foundation of the company is based.
+            </h3>
+
+            <h3>
+              Mangal Essakki Innovations provides a range of services under
+              the digital manner from devising the perfect digital strategy to
+              its execution, the company offers dedicated services into
+              website design and development, App development and Digital
+              Marketing and Software Consultancy.
+            </h3>
+            <!--
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              -->
+
+            <!--
+                <a href="./about.html"><button class="btn-get-started btn-success">Read More...</button></a>
+              -->
+
+            <!--
+                <ul>
+                  <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+              -->
+
+            <!--
+                <p>
+                  We have served clients from across the globe, and our team hails
+                  from a variety of different industrial and cultural backgrounds.
+                  This helps us understand how your requirements align to your
+                  target audience. Your website and mobile app is not just a
+                  project for us, it’s a collaboration.
+                </p>
+              -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #about -->
+
+    <!--
+        ==========================
+         Services section
+        ============================
+      -->
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-4">
+            <div class="section-header wow fadeIn" data-wow-duration="1s">
+              <h3 class="section-title">Services</h3>
+              <span class="section-divider"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-5 features-img">
+            <img src="img/product-features.png" alt="" class="wow fadeInLeft" />
+          </div>
+
+          <div class="col-lg-8 col-md-7 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon"><i class="ion-code-working"></i></div>
+                <h4 class="title"><a href="">Web development</a></h4>
+                <p class="description">
+                  When we develop a website it makes a positive difference to
+                  your business. Web development encompasses many different
+                  skills and maintenance of website.
+                </p>
+                <!--
+                    <a href="/services.html" class="get-started-btn">Read More...</a>
+                  -->
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
+                <div class="icon"><i class="ion-android-apps"></i></div>
+                <h4 class="title"><a href="">App Development</a></h4>
+                <p class="description">
+                  App development has stimulated a greater need for
+                  applications designed and devlopment specifically for mobile
+                  device.
+                </p>
+                <!--
+                    <a href="/services.html" class="get-started-btn">Read More...</a>
+                  -->
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
+                <div class="icon">
+                  <i class="ion-social-buffer-outline"></i>
+                </div>
+                <h4 class="title"><a href="">Digital Marketing</a></h4>
+                <p class="description">
+                  Each client is an addition to Mangal Essakki Innovations
+                  family, We create innovative techniques using out of box
+                  imagination.
+                </p>
+                <!--
+                    <a href="/services.html" class="get-started-btn">Read More...</a>
+                  -->
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
+                <div class="icon"><i class="ion-stats-bars"></i></div>
+                <h4 class="title"><a href="">Software Consultancy</a></h4>
+                <p class="description">
+                  We devise strategies that help you streamline your process
+                  in line to the latest needs and as per the technological
+                  needs and challenges.
+                  <!--
+                      Our end-to-end internet marketing, web
+                      design/development and IT consultancy service helps business
+                      transform, evolve and enjoy sustainable growth.
+                    -->
+                </p>
+                <!--
+                    <a href="/services.html" class="get-started-btn">Read More...</a>
+                  -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #features -->
+
+    <!--
+        ==========================
+          Product Advanced Featuress Section
+        ============================
+      -->
+    <!-- <section id="advanced-features"> -->
+
+    <!--
+        <div class="features-row section-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img class="advanced-feature-img-right wow fadeInRight" src="img/advanced-feature-1.jpg" alt="">
+                <div class="wow fadeInLeft">
+                  <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
+                  <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                  <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      -->
+
+    <!--
+        <div class="features-row">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img class="advanced-feature-img-left" src="img/advanced-feature-2.jpg" alt="">
+                <div class="wow fadeInRight">
+                  <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
+                  <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
+                  <p class="wow fadeInRight" data-wow-duration="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                  <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
+                  <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                  <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
+                  <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      -->
+
+    <!--
+        <div class="features-row section-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img class="advanced-feature-img-right wow fadeInRight" src="img/advanced-feature-3.jpg" alt="">
+                <div class="wow fadeInLeft">
+                  <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
+                  <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                  <i class="ion-ios-albums-outline"></i>
+                  <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      -->
+    <!-- </section> -->
+
+    <!-- #advanced-features -->
+
+    <!--
+        ==========================
+          Call To Action Section
+        ============================
+      -->
+    <section id="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">OUR VISION</h3>
+            <p class="cta-text">
+              We intend to provide end to end consulting services by adding
+              values to our associates with greater levels of business
+              efficiency and client satisfaction.
+            </p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact">Mangal Essakki Innovations</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #call-to-action -->
+
+    <!--
+        ==========================
+          More Features Section
+        ============================
+      -->
+    <!--
+        <section id="more-features" class="section-bg">
+          <div class="container">
+
+            <div class="section-header">
+              <h3 class="section-title">More Features</h3>
+              <span class="section-divider"></span>
+              <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+
+            <div class="row">
+
+              <div class="col-lg-6">
+                <div class="box wow fadeInLeft">
+                  <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
+                  <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                  <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="box wow fadeInRight">
+                  <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+                  <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                  <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="box wow fadeInLeft">
+                  <div class="icon"><i class="ion-ios-heart-outline"></i></div>
+                  <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                  <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="box wow fadeInRight">
+                  <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+                  <h4 class="title"><a href="">Magni Dolores</a></h4>
+                  <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+      -->
+
+    <!-- #more-features -->
+
+    <!--
+        ==========================
+          Clients
+        ============================
+      -->
+    <!--
+        <section id="clients">
+          <div class="container">
+
+            <div class="row wow fadeInUp">
+
+              <div class="col-md-2">
+                <img src="img/clients/client-1.png" alt="">
+              </div>
+
+              <div class="col-md-2">
+                <img src="img/clients/client-2.png" alt="">
+              </div>
+
+              <div class="col-md-2">
+                <img src="img/clients/client-3.png" alt="">
+              </div>
+
+              <div class="col-md-2">
+                <img src="img/clients/client-4.png" alt="">
+              </div>
+
+              <div class="col-md-2">
+                <img src="img/clients/client-5.png" alt="">
+              </div>
+
+              <div class="col-md-2">
+                <img src="img/clients/client-6.png" alt="">
+              </div>
+
+            </div>
+          </div>
+        </section>
+      -->
+
+    <!-- #more-features -->
+
+    <!--
+        ==========================
+          Why us
+        ============================
+      -->
+    <section id="pricing" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">WHY US</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">
+            Our team of dedicated and brilliantly creative website developers,
+            digital wizards, and tech savy specialists synergize to deliver
+            technology solutions for business success, from start-ups to
+            corporations.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInLeft">
+              <h3>Quality Development</h3>
+
+              <ul>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i> We are an
+                  offshore development company located in Navi Mumbai, India
+                  providing the best mix of quality development at a lower
+                  cost.
+                </li>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i> We work on
+                  flexible payment terms selecting the right pricing model
+                  which makes sense for our clients needs.
+                </li>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i> Fixed budget
+                  models for clear-defined functionalities and hourly billing
+                  for evolving requirements. There is a clear sign-off at
+                  every step
+                </li>
+              </ul>
+              <a href="#contact" class="get-started-btn">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box featured wow fadeInUp">
+              <h3>Honesty and Transparency</h3>
+
+              <ul>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i> Honesty and
+                  Transparency are the virtues that our CEO values the most
+                  and that's what we apply in our business practices.
+                </li>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i> Our clients
+                  have the visibility of the development team, their
+                  credentials along with the complete visibility of the
+                  development progress.
+                </li>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i> The complete
+                  source code, documentation as well as IPs generated by the
+                  development team is retained by our clients.
+                </li>
+              </ul>
+              <a href="#contact" class="get-started-btn">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <h3>Agile Processes</h3>
+
+              <ul>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i> We use agile
+                  processes to ensure that every step of the process we
+                  deliver as per our clients requirements.
+                </li>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i> Agile process
+                  allows us to have close interaction with our clients
+                  throughout the development process to ensure the end
+                  solution is exactly as per client’s requirements.
+                </li>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i> As a part of
+                  the agile process the client plays a key role in
+                  prioritizing task and providing early feedback to ensure we
+                  deliver the right solution.
+                </li>
+              </ul>
+              <a href="#contact" class="get-started-btn">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #pricing -->
+
+    <!--
+        ==========================
+          Frequently Asked Questions Section
+        ============================
+      -->
+
+    <!--
+        <section id="faq">
+          <div class="container">
+
+            <div class="section-header">
+              <h3 class="section-title">Frequently Asked Questions</h3>
+              <span class="section-divider"></span>
+              <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+
+            <ul id="faq-list" class="wow fadeInUp">
+              <li>
+                <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="ion-android-remove"></i></a>
+                <div id="faq1" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="ion-android-remove"></i></a>
+                <div id="faq2" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="ion-android-remove"></i></a>
+                <div id="faq3" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="ion-android-remove"></i></a>
+                <div id="faq4" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="ion-android-remove"></i></a>
+                <div id="faq5" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="ion-android-remove"></i></a>
+                <div id="faq6" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+        </section>
+      -->
+
+    <!-- #faq -->
+
+    <!--
+        ==========================
+          Our Team Section
+        ============================
+      -->
+
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">FOUNDERS</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">
+            Everything begins with an idea.
+          </p>
+        </div>
+
+        <div class="container content">
+          <div class="row ">
+            <div class="col-lg-4 col-md-6">
+              <div class="member wow fadeInLeft">
+                <div class="pic">
+                  <img src="img/team/mahesh.jpg" alt="" />
+                </div>
+                <h4>Mahesh Essakki</h4>
+                <!-- <span>Chief Executive Officer</span> -->
+
+                <div class="social">
+                  <!--
+                      <a href=""><i class="fa fa-twitter"></i></a>
+                      <a href=""><i class="fa fa-facebook"></i></a>
+                      <a href=""><i class="fa fa-google-plus"></i></a>
+                    -->
+                  <a target="_blank" href="https://www.linkedin.com/in/mahesh-essakki-5b348616b/"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!--
+                <div class="col-lg-3 col-md-6">
+                  <div class="member">
+                    <div class="pic"><img src="img/team/team-2.jpg" alt="" /></div>
+                    <h4>Sarah Jhinson</h4>
+                    <span>Product Manager</span>
+                    <div class="social">
+                      <a href=""><i class="fa fa-twitter"></i></a>
+                      <a href=""><i class="fa fa-facebook"></i></a>
+                      <a href=""><i class="fa fa-google-plus"></i></a>
+                      <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              -->
+
+            <div class="col-lg-4 col-md-6">
+              <div class="member wow fadeInRight">
+                <div class="pic">
+                  <img src="img/team/vishal sir.jpg" alt="" />
+                </div>
+                <h4>Vishal Mangal</h4>
+                <!-- <span>CTO</span> -->
+
+                <div class="social">
+                  <!--
+                      <a href=""><i class="fa fa-twitter"></i></a>
+                      <a href=""><i class="fa fa-facebook"></i></a>
+                      <a href=""><i class="fa fa-google-plus"></i></a>
+                    -->
+                  <a target="_blank" href="https://www.linkedin.com/in/ca-vishal-mangal-4793a9b4/"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!--
+                <div class="col-lg-3 col-md-6">
+                  <div class="member">
+                    <div class="pic"><img src="img/team/team-4.jpg" alt="" /></div>
+                    <h4>Amanda Jepson</h4>
+                    <span>Accountant</span>
+                    <div class="social">
+                      <a href=""><i class="fa fa-twitter"></i></a>
+                      <a href=""><i class="fa fa-facebook"></i></a>
+                      <a href=""><i class="fa fa-google-plus"></i></a>
+                      <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- #team -->
+
+    <!--
+        ==========================
+          Gallery Section
+        ============================
+      -->
+    <!--
+        <section id="gallery">
+          <div class="container-fluid">
+            <div class="section-header">
+              <h3 class="section-title">Gallery</h3>
+              <span class="section-divider"></span>
+              <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+
+            <div class="row no-gutters">
+
+              <div class="col-lg-4 col-md-6">
+                <div class="gallery-item wow fadeInUp">
+                  <a href="img/gallery/gallery-1.jpg" class="gallery-popup">
+                    <img src="img/gallery/gallery-1.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="gallery-item wow fadeInUp">
+                  <a href="img/gallery/gallery-2.jpg" class="gallery-popup">
+                    <img src="img/gallery/gallery-2.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="gallery-item wow fadeInUp">
+                  <a href="img/gallery/gallery-3.jpg" class="gallery-popup">
+                    <img src="img/gallery/gallery-3.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="gallery-item wow fadeInUp">
+                  <a href="img/gallery/gallery-4.jpg" class="gallery-popup">
+                    <img src="img/gallery/gallery-4.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="gallery-item wow fadeInUp">
+                  <a href="img/gallery/gallery-5.jpg" class="gallery-popup">
+                    <img src="img/gallery/gallery-5.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="gallery-item wow fadeInUp">
+                  <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
+                    <img src="img/gallery/gallery-6.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+      -->
+
+    <!-- #gallery -->
+
+    <!--
+        ==========================
+          Contact Section
+        ============================
+      -->
+    <section id="contact">
+      <div class="container">
+        <div class="row wow fadeInUp">
+          <div class="col-lg-4 col-md-4">
+            <div class="contact-about">
+              <h3>Mangal Essakki</h3>
+              <h4>Innovations</h4>
+              <!--
+                  <p>
+                    Cras fermentum odio eu feugiat. Justo eget magna fermentum
+                    iaculis eu non diam phasellus. Scelerisque felis imperdiet
+                    proin fermentum leo. Amet volutpat consequat mauris nunc
+                    congue.
+                  </p>
+                -->
+              <!--
+                  <div class="social-links">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"
+                      ><i class="fa fa-facebook"></i
+                    ></a>
+                    <a href="#" class="instagram"
+                      ><i class="fa fa-instagram"></i
+                    ></a>
+                    <a href="#" class="google-plus"
+                      ><i class="fa fa-google-plus"></i
+                    ></a>
+                    <a href="#" class="linkedin"
+                      ><i class="fa fa-linkedin"></i
+                    ></a>
+                  </div>
+                -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+                <i class="ion-ios-location-outline"></i>
+                <a target="_blank" href="https://www.google.co.in/maps/dir/19.0562304,73.0005504/mangal+essakki+innovations/@19.057775,72.99988,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7c1fd33b2798b:0x3d5a5532f09feac6!2m2!1d73.0027074!2d19.0576357">
+                  <p>
+                    1401 The Affaires<br />Palm beach Rd, sector 17<br />Sanpada,
+                    Navi Mumbai
+                  </p>
+                </a>
+              </div>
+
+              <div>
+                <i class="ion-ios-email-outline"></i>
+                <a href="mailto:mangalessakki@gmail.com">
+                  <p>mangalessakki@gmail.com</p>
+                </a>
+              </div>
+
+              <div>
+                <i class="ion-ios-telephone-outline"></i>
+                <a href="tel:+91 8169701280">
+                  <p>+91 8169701280</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <div id="sendmessage">
+                Your message has been sent. Thank you!
+              </div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
+                      data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
+                      data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4"
+                    data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Please write something for us"
+                    placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center">
+                  <button type="submit" title="Send Message">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #contact -->
+  </main>
+
+  <!--
+      ==========================
+        Footer
+      ============================
+    -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>Mangal Essakki Innovations</strong>. All
+            Rights Reserved
+          </div>
+          <div class="credits">
+            <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Avilon
+              -->
+            Designed by <a href="/index.html">Mangal Essakki Innovations</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#carouselExampleControls" class="scrollto">Home</a>
+            <a href="#about" class="scrollto">About</a>
+            <a href="#features">Services</a> <a href="#pricing">Why Us</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+
+
+
+  <!-- Contact Form JavaScript File -->
+  <!-- <script src="contactform/contactform.js"></script> -->
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

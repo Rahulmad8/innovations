@@ -1,0 +1,730 @@
+# Webalizer V2.23-05 Incremental Data - 01/30/2019 16:32:24
+2019 1 30 16 32 24
+1777 1642 138 32 16 44 98076285 154 140 0
+6 2 60 1 30
+4 2 11796 2 2 2
+69 61 3561833 6 5 5
+112 101 6946045 7 7 5
+52 49 1917561 7 5 5
+45 44 1873199 3 4 4
+79 76 3647480 6 4 4
+83 77 5219248 10 14 13
+58 47 4959764 23 11 11
+37 33 1803009 12 5 5
+35 33 2106992 6 3 3
+33 31 1772347 4 3 3
+3 1 26463 2 1 1
+7 5 26537 4 3 3
+71 65 3560343 9 7 7
+44 40 1915629 14 9 6
+61 60 3530357 5 4 4
+2 2 25601 1 1 1
+60 60 3521346 1 2 1
+62 60 3531214 5 4 4
+15 10 92104 6 3 3
+95 94 5327968 8 5 5
+103 98 5354840 14 8 8
+96 93 5385859 5 8 5
+80 68 5745581 9 4 3
+18 13 82795 5 3 3
+8 4 312775 5 2 2
+68 65 3646175 6 3 3
+180 167 9939892 28 13 10
+135 124 8405458 22 8 8
+62 59 3826074 6 3 3
+0 0 0 0 0 0
+96 92 5324121 7
+139 129 11069546 9
+98 92 5309474 8
+196 189 10617461 12
+111 101 6945188 7
+159 152 8865842 8
+79 75 3692628 5
+38 33 1781767 4
+87 85 6079320 8
+93 90 5296821 6
+37 34 2778092 6
+91 78 5250618 4
+35 31 1803655 2
+38 32 224860 9
+14 7 35527 5
+52 45 397073 9
+6 4 611816 2
+36 33 1778369 4
+34 26 502985 8
+6 5 26062 5
+84 80 5567632 7
+67 62 3578989 4
+102 99 6955776 7
+79 68 3582663 8
+0
+0
+0
+1642
+0
+0
+0
+0
+0
+22
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+113
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/lib/jquery/jquery.min.js
+0 54 0 1627452 0 0
+/lib/superfish/hoverIntent.js
+0 53 0 124762 0 0
+/lib/superfish/superfish.min.js
+0 52 0 97916 0 0
+/lib/bootstrap/css/bootstrap.min.css
+0 58 0 1192480 0 0
+/lib/ionicons/css/ionicons.min.css
+0 55 0 482350 0 0
+/lib/wow/wow.min.js
+0 52 0 146952 0 0
+/lib/ionicons/fonts/ionicons.eot
+0 1 0 68942 0 0
+/lib/ionicons/fonts/ionicons.ttf
+0 50 0 5489900 0 0
+/img/MEfav.png
+0 44 0 42504 0 0
+/lib/jquery/jquery-migrate.min.js
+0 53 0 143842 0 0
+/lib/font-awesome/css/font-awesome.min.css
+0 55 0 387915 0 0
+/img/apple-touch-icon.png
+0 14 0 13524 0 0
+/img/about-img.jpg
+0 54 0 6946625 0 0
+/contactform/contactform.js
+0 51 0 41667 0 0
+/css/style.css
+0 55 0 250800 0 0
+/img/new222.jpg
+0 57 0 9154637 0 0
+/js/main.js
+0 52 0 100568 0 0
+/lib/font-awesome/fonts/fontawesome-webfont.eot
+0 1 0 98486 0 0
+/lib/bootstrap/js/bootstrap.bundle.min.js
+0 52 0 1000948 0 0
+/img/new22.jpg
+0 57 0 16589859 0 0
+/img/team/vishal sir.jpg
+0 52 0 1844804 0 0
+/
+0 154 0 1002706 140 65
+/lib/font-awesome/fonts/fontawesome-webfont.woff2
+0 50 0 3858096 0 0
+/img/Ripple-1.7s-200px.gif
+0 52 0 5942241 0 0
+/img/product-features.png
+0 57 0 1368497 0 0
+/img/team/mahesh.jpg
+0 52 0 1905592 0 0
+/img/call-to-action-bg.jpg
+0 50 0 7130150 0 0
+/lib/easing/easing.min.js
+0 52 0 39884 0 0
+/lib/animate/animate.min.css
+0 55 0 144210 0 0
+/lib/magnific-popup/magnific-popup.css
+0 55 0 99880 0 0
+/img/new2.jpg
+0 63 0 30246633 0 0
+/lib/magnific-popup/magnific-popup.min.js
+0 52 0 381992 0 0
+# End Of Table - urls
+# -sites- (monthly)
+173.252.87.5
+0 3 3 545166 0 0
+-
+66.220.149.20
+0 4 4 122120 0 0
+-
+173.252.95.16
+0 5 5 144081 0 0
+-
+173.252.95.9
+0 1 1 36646 0 0
+-
+106.79.169.219
+0 1 1 966 0 0
+-
+173.252.95.17
+0 4 4 248573 0 0
+-
+49.32.239.83
+0 30 30 1760675 1 1546928130
+/
+31.13.115.10
+0 2 2 10082 1 1548672015
+/
+114.79.167.204
+0 29 29 1759709 1 1546767310
+/
+192.99.150.97
+0 7 4 100725 1 1548257786
+/
+54.36.148.39
+0 1 1 5041 1 1548137865
+/
+106.78.179.124
+0 1 1 36646 0 0
+-
+1.186.221.231
+0 29 29 1759709 1 1548104925
+/
+66.249.66.70
+0 1 1 5041 1 1547904346
+/
+49.14.70.161
+0 5 5 876449 0 0
+-
+1.187.19.128
+0 1 1 8770 0 0
+-
+1.187.2.237
+0 1 1 966 0 0
+-
+173.252.95.22
+0 2 2 431253 0 0
+-
+54.36.149.105
+0 1 1 5041 1 1547049829
+/
+66.249.79.236
+0 35 24 154906 7 1548441723
+/
+1.187.14.102
+0 3 3 200043 0 0
+-
+66.249.65.155
+0 1 1 5041 1 1547091039
+/
+66.249.66.156
+0 2 0 1714 0 0
+-
+106.79.143.200
+0 3 3 37801 1 1548725290
+/
+49.35.124.78
+0 29 29 1759709 1 1548040337
+/
+49.32.13.225
+0 30 30 1760675 1 1547445807
+/
+157.51.132.199
+0 28 28 1758743 1 1546719097
+/
+66.249.66.155
+0 1 1 5041 1 1547962192
+/
+173.252.95.10
+0 3 3 500748 0 0
+-
+69.171.251.6
+0 1 1 496106 0 0
+-
+66.249.79.134
+0 16 7 60531 5 1548514015
+/
+1.186.177.73
+0 29 29 1759709 1 1547863475
+/
+114.79.169.217
+0 29 29 1759709 1 1547426668
+/
+1.186.197.5
+0 29 29 1759709 1 1548802413
+/
+54.36.148.90
+0 4 0 3428 0 0
+-
+103.111.133.181
+0 28 28 1758743 1 1548276718
+/
+106.79.131.165
+0 5 5 98590 0 0
+-
+66.220.149.8
+0 1 1 496106 0 0
+-
+37.9.87.210
+0 7 4 25261 4 1548167790
+/
+45.114.194.209
+0 31 29 1761423 1 1546430594
+/
+64.246.165.180
+0 2 1 6740 1 1547480908
+/
+103.206.62.19
+0 29 29 1759709 1 1546564098
+/
+106.79.155.185
+0 3 3 205919 0 0
+-
+69.58.178.58
+0 3 2 49513 1 1547582504
+/
+66.249.65.156
+0 2 1 5898 1 1547041805
+/
+31.13.115.13
+0 1 1 5041 1 1548672013
+/
+106.79.184.146
+0 5 5 216496 0 0
+-
+66.249.79.130
+0 50 41 308607 8 1548731054
+/
+66.249.79.238
+0 25 14 95246 8 1548859775
+/
+49.33.209.190
+0 30 30 1760675 1 1548219890
+/
+1.187.7.16
+0 3 3 169606 0 0
+-
+173.252.95.3
+0 1 1 5041 1 1546910535
+/
+49.32.207.51
+0 29 29 1759709 1 1547228605
+/
+116.50.85.147
+0 1 1 966 0 0
+-
+64.233.173.47
+0 13 13 645367 1 1548647304
+/
+49.14.66.155
+0 6 6 183231 1 1548655094
+/
+10.39.128.23
+0 1 1 5041 1 1546903291
+/
+34.221.164.218
+0 1 1 5041 1 1548043752
+/
+173.252.87.6
+0 1 1 496106 0 0
+-
+49.32.31.180
+0 22 22 2041918 1 1548320322
+/
+106.79.135.238
+0 4 4 122391 0 0
+-
+54.36.148.249
+0 1 1 5041 1 1547631783
+/
+66.220.149.28
+0 4 4 309764 0 0
+-
+173.252.87.13
+0 1 1 496106 0 0
+-
+45.117.223.134
+0 29 29 1759709 1 1547598241
+/
+173.252.95.21
+0 6 6 287870 0 0
+-
+66.249.82.107
+0 10 10 254873 0 0
+-
+27.4.21.5
+0 29 29 1759709 1 1547084378
+/
+106.78.186.49
+0 1 1 77162 0 0
+-
+66.249.79.132
+0 43 39 843461 16 1548477189
+/
+64.233.173.43
+0 16 16 517047 0 0
+-
+66.220.149.32
+0 4 4 136702 0 0
+-
+49.14.82.24
+0 4 4 162347 0 0
+-
+66.220.149.26
+0 1 0 857 0 0
+-
+1.187.21.77
+0 3 3 329874 0 0
+-
+49.33.207.75
+0 30 30 1760675 1 1548629826
+/
+173.252.95.1
+0 7 7 401286 1 1547553356
+/
+66.249.79.234
+0 56 41 601310 11 1548781382
+/
+216.244.66.196
+0 8 4 102424 4 1547335473
+/
+49.36.1.138
+0 107 99 6948911 3 1546485560
+/
+106.79.178.23
+0 3 3 81759 0 0
+-
+54.36.148.92
+0 3 0 2571 0 0
+-
+54.36.148.91
+0 4 0 3428 0 0
+-
+54.36.148.247
+0 1 1 5041 1 1548675329
+/
+43.241.118.130
+0 29 29 1759709 1 1547874071
+/
+66.220.149.24
+0 3 3 503380 0 0
+-
+54.36.148.79
+0 1 1 5041 1 1546628529
+/
+106.79.183.46
+0 4 4 648588 0 0
+-
+49.14.64.105
+0 4 4 162345 0 0
+-
+93.158.161.169
+0 1 1 5041 1 1546972087
+/
+64.233.173.45
+0 31 31 2358936 1 1548151756
+/
+183.87.99.253
+0 30 30 1760675 1 1548232726
+/
+54.36.149.60
+0 1 1 5041 1 1547669153
+/
+103.48.57.253
+0 18 18 1688715 1 1548188377
+/
+103.198.96.40
+0 60 60 3521346 1 1547790721
+/
+158.69.241.225
+0 3 3 15123 1 1547581853
+/
+49.33.199.92
+0 29 29 1759709 1 1548032792
+/
+106.79.172.248
+0 1 1 35477 0 0
+-
+173.252.87.1
+0 1 1 24530 0 0
+-
+173.252.95.36
+0 1 1 168022 0 0
+-
+173.252.95.34
+0 1 1 496106 0 0
+-
+49.14.82.7
+0 2 2 515355 0 0
+-
+49.33.201.126
+0 30 30 1760675 1 1548633261
+/
+49.32.29.71
+0 28 28 1758743 1 1548734825
+/
+49.36.1.238
+0 198 190 12251088 9 1548821137
+/
+45.250.227.38
+0 30 29 1760566 1 1546767301
+/
+49.32.53.113
+0 23 23 1635257 0 0
+-
+103.48.100.27
+0 29 29 1759709 1 1548147921
+/
+5.255.250.109
+0 1 0 1699 0 0
+-
+49.33.208.49
+0 29 29 1759709 1 1548847844
+/
+106.79.189.172
+0 1 1 300010 0 0
+-
+95.216.41.162
+0 2 1 25606 1 1548022785
+/
+66.249.66.157
+0 1 0 857 0 0
+-
+54.36.148.1
+0 1 0 857 0 0
+-
+211.56.145.140
+0 1 1 23907 1 1548095353
+/
+66.220.149.5
+0 9 9 481852 1 1547002162
+/
+66.220.149.3
+0 1 1 496106 0 0
+-
+66.249.66.68
+0 2 1 5898 1 1547904399
+/
+27.97.128.164
+0 15 15 529668 1 1548646000
+/
+66.249.65.157
+0 1 0 857 0 0
+-
+54.36.148.0
+0 1 0 857 0 0
+-
+66.249.82.109
+0 13 13 829047 0 0
+-
+141.8.143.141
+0 1 1 5041 1 1546972091
+/
+106.79.149.177
+0 5 5 141722 0 0
+-
+173.252.95.5
+0 5 5 201681 0 0
+-
+66.220.149.13
+0 5 5 205891 0 0
+-
+200.66.94.138
+0 1 1 300010 0 0
+-
+106.79.147.69
+0 2 2 623485 0 0
+-
+66.249.82.111
+0 7 7 676755 1 1548315254
+/
+173.252.95.30
+0 1 1 5041 1 1546910535
+/
+1.187.24.82
+0 3 3 64567 0 0
+-
+54.36.149.41
+0 1 1 5041 1 1547114989
+/
+116.50.85.118
+0 28 28 1739211 1 1548732469
+/
+173.252.87.12
+0 1 1 496106 0 0
+-
+37.9.87.172
+0 1 0 1699 0 0
+-
+173.252.95.12
+0 1 1 5041 1 1546910533
+/
+65.154.226.109
+0 28 28 1758743 1 1546503376
+/
+49.14.95.89
+0 5 5 312561 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+66.249.79.134
+0 1 0 857 0 0
+-
+66.249.79.238
+0 2 1 5898 1 1548859775
+/
+66.249.79.132
+0 1 1 300010 0 0
+-
+49.36.1.238
+0 28 28 1758743 1 1548821137
+/
+49.33.208.49
+0 29 29 1759709 1 1548847844
+/
+54.36.148.0
+0 1 0 857 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://www.meinnovations.in/lib/ionicons/css/ionicons.min.css
+0 38
+https://www.google.com.mx/
+0 1
+https://www.facebook.com/
+0 2
+https://www.google.com/
+0 10
+- (Direct Request)
+0 312
+http://meinnovations.in/
+0 296
+http://outchem.com/index.html
+0 2
+http://www.meinnovations.in/css/style.css
+0 76
+http://m.facebook.com/
+0 1
+http://www.meinnovations.in/
+0 965
+http://meinnovations.in/css/style.css
+0 16
+http://meinnovations.in/lib/font-awesome/css/font-awesome.min.css
+0 8
+https://www.google.co.in/
+0 2
+http://meinnovations.in/lib/ionicons/css/ionicons.min.css
+0 8
+http://www.meinnovations.in/lib/font-awesome/css/font-awesome.min.css
+0 38
+http://www.outchem.com/
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+0 30
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+0 29
+Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)
+0 8
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36
+0 29
+Mozilla/5.0 (Linux; Android 8.1.0; Redmi Note 5 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari
+0 30
+Mozilla/5.0 (Linux; Android 8.1.0; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537
+0 30
+Mozilla/5.0 (compatible; Dataprovider.com)
+0 6
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+0 116
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+0 29
+Mozilla/5.0 (Linux; Android 4.4.4; 2014818 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile S
+0 94
+Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)
+0 20
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 76
+Mozilla/5.0 (Linux; Android 4.4.2; Micromax A065 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mo
+0 30
+Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile S
+0 1
+Mozilla/5.0 (Linux; Android 8.1.0; ONEPLUS A5010 Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.
+0 29
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+0 525
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36
+0 35
+Googlebot-Image/1.0
+0 34
+Mozilla/5.0 (Linux; Android 7.1.1; Moto E (4) Plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/
+0 30
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+0 29
+crawler4j (https://github.com/yasserg/crawler4j/)
+0 2
+Mozilla/5.0 (Linux; Android 8.1.0; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537
+0 30
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 16
+Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safa
+0 2
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
+0 29
+Mozilla/5.0 (Linux; Android 5.1.1; SM-G925F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile S
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.
+0 29
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:59.0) Gecko/20100101 Firefox/59.0
+0 2
+Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)
+0 2
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CL
+0 28
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile S
+0 91
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 11
+Mozilla/5.0 (compatible; ips-agent)
+0 3
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0
+0 60
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 8.1.0; TA-1021) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36
+0 30
+Mozilla/5.0 (Linux; Android 6.0.1; Redmi 3S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36
+0 75
+Mozilla/5.0 (Linux; Android 7.0; S6s) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36
+0 30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 Mobile/15B150 S
+0 56
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) CriOS/71.0.3578.89 Mobile/1
+0 30
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+0 29
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
